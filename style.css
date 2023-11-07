@@ -1,0 +1,65 @@
+/* Reset default browser styles to provide a clean slate */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color and center the text */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style navigation links horizontally */
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the main content area with some padding and background */
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Style sections with padding and a border */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Style headings and paragraphs */
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+p {
+    color: #666;
+}
+
+/* Style the footer with a background color and centered text */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

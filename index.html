@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Items</h1>
+    
+    <form id="create-form">
+        <input type="text" id="create-name" placeholder="Name">
+        <input type="text" id="create-description" placeholder="Description">
+        <button type="submit">Create Item</button>
+    </form>
+
+    <form id="update-form">
+        <input type="text" id="update-id" placeholder="Item ID">
+        <input type="text" id="update-name" placeholder="New Name">
+        <input type="text" id="update-description" placeholder="New Description">
+        <button type="submit">Update Item</button>
+    </form>
+
+    <form id="delete-form">
+        <input type="text" id="delete-id" placeholder="Item ID to Delete">
+        <button type="submit">Delete Item</button>
+    </form>
+
+    <ul id="items-list"></ul>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+</html>
